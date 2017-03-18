@@ -59,3 +59,22 @@ body {
   margin-right: auto;
   background-color: rgb(135,169,132);
 }
+
+.box2 {
+  width: 198px;
+  height: 614px;
+  padding: 0 10px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 160px;
+  background-color: rgb(150,175,172);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 8px 16px;
+    width: 200px;
+    font-family: sans-serif;
+
+}
