@@ -48,7 +48,7 @@ body {
   border-right: 1px solid #D4B364;
 }
 
-.nav li: last-child {
+.nav li:last-child {
   border-right: none;
 }
 
@@ -60,16 +60,6 @@ body {
   background-color: rgb(135,169,132);
 }
 
-.box2 {
-  width: 162px;
-  height: 614px;
-  float: left;
-  margin-top: 10px;
-  margin-right: auto;
-  margin-left: auto;
-  background-color: rgb(150,175,172);
-}
-
 
 ul {
     list-style-type: none;
@@ -77,13 +67,22 @@ ul {
     padding: 8px 16px;
     width: 200px;
     font-family: sans-serif;
+    font-size: 0.9rem;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #DBD8C5
 
 }
 
+ul:first-child {
+  padding-top: 20px;
+}
+
 .box3 {
-  width: 726px;
+  max-width: 940px;
   height: 614px;
-  float: left;
-  background-color: rgb(219,216,197);
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(to right,  #96AFAC 0%,#96AFAC 20%,#DBD8C5 0%,#DBD8C5 100%);
   margin-top: 10px;
 }
