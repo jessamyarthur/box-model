@@ -81,8 +81,9 @@ ul:first-child {
 .box3 {
   max-width: 940px;
   height: 614px;
+  margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
   background: linear-gradient(to right,  #96AFAC 0%,#96AFAC 20%,#DBD8C5 0%,#DBD8C5 100%);
-  margin-top: 10px;
+
 }
